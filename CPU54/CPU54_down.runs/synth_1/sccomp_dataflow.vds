@@ -1,0 +1,1350 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jun 18 07:10:37 2018
+# Process ID: 7828
+# Current directory: E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1
+# Command line: vivado.exe -log sccomp_dataflow.vds -mode batch -messageDb vivado.pb -notrace -source sccomp_dataflow.tcl
+# Log file: E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/sccomp_dataflow.vds
+# Journal file: E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sccomp_dataflow.tcl -notrace
+Command: synth_design -top sccomp_dataflow -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7524 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 304.879 ; gain = 98.383
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sccomp_dataflow' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sccomp_dataflow.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (1#1) [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'cpu' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cpu54.v:23]
+INFO: [Synth 8-638] synthesizing module 'control_unit_54' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/control_unit_54.v:23]
+INFO: [Synth 8-638] synthesizing module 'instruction_decoder' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/instruction_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'instruction_decoder' (2#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/instruction_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'control_unit_54' (3#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/control_unit_54.v:23]
+INFO: [Synth 8-638] synthesizing module 'add2' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/add2.v:23]
+INFO: [Synth 8-256] done synthesizing module 'add2' (4#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/add2.v:23]
+INFO: [Synth 8-638] synthesizing module 'ext18' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:39]
+INFO: [Synth 8-256] done synthesizing module 'ext18' (5#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:39]
+INFO: [Synth 8-638] synthesizing module 'mux32x41' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:79]
+INFO: [Synth 8-256] done synthesizing module 'mux32x41' (6#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:79]
+INFO: [Synth 8-638] synthesizing module 'pcreg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/pcreg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'pcreg' (7#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/pcreg.v:23]
+INFO: [Synth 8-638] synthesizing module 'mux5x21' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:45]
+INFO: [Synth 8-256] done synthesizing module 'mux5x21' (8#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:45]
+INFO: [Synth 8-638] synthesizing module 'mux32x81' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:102]
+INFO: [Synth 8-256] done synthesizing module 'mux32x81' (9#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:102]
+INFO: [Synth 8-638] synthesizing module 'regfile' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/regfiles.v:22]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (10#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/regfiles.v:22]
+INFO: [Synth 8-638] synthesizing module 'ext5' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ext5' (11#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:23]
+INFO: [Synth 8-638] synthesizing module 'mux32x21' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:62]
+INFO: [Synth 8-256] done synthesizing module 'mux32x21' (12#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:62]
+INFO: [Synth 8-638] synthesizing module 'ext16' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:31]
+INFO: [Synth 8-256] done synthesizing module 'ext16' (13#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:31]
+INFO: [Synth 8-638] synthesizing module 'alu' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-638] synthesizing module 'addsub32' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/addsub32.v:22]
+INFO: [Synth 8-256] done synthesizing module 'addsub32' (14#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/addsub32.v:22]
+INFO: [Synth 8-638] synthesizing module 'and_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/and_c.v:23]
+INFO: [Synth 8-256] done synthesizing module 'and_c' (15#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/and_c.v:23]
+INFO: [Synth 8-638] synthesizing module 'bshifter32_carry' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/bshifter_32carry.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/bshifter_32carry.v:39]
+INFO: [Synth 8-256] done synthesizing module 'bshifter32_carry' (16#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/bshifter_32carry.v:23]
+INFO: [Synth 8-638] synthesizing module 'lui_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/lui_c.v:22]
+INFO: [Synth 8-256] done synthesizing module 'lui_c' (17#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/lui_c.v:22]
+INFO: [Synth 8-638] synthesizing module 'nor_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/nor_c.v:22]
+INFO: [Synth 8-256] done synthesizing module 'nor_c' (18#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/nor_c.v:22]
+INFO: [Synth 8-638] synthesizing module 'or_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/or_c.v:23]
+INFO: [Synth 8-256] done synthesizing module 'or_c' (19#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/or_c.v:23]
+INFO: [Synth 8-638] synthesizing module 'slt_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/slt_c.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/slt_c.v:35]
+INFO: [Synth 8-256] done synthesizing module 'slt_c' (20#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/slt_c.v:23]
+INFO: [Synth 8-638] synthesizing module 'xor_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/xor_c.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xor_c' (21#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/xor_c.v:23]
+INFO: [Synth 8-226] default block is never used [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/alu.v:50]
+INFO: [Synth 8-256] done synthesizing module 'alu' (22#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-638] synthesizing module 'countZero' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/countZero.v:23]
+INFO: [Synth 8-256] done synthesizing module 'countZero' (23#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/countZero.v:23]
+INFO: [Synth 8-638] synthesizing module 'divmul' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:23]
+INFO: [Synth 8-638] synthesizing module 'DIVU' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:23]
+WARNING: [Synth 8-5788] Register reg_r_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:41]
+WARNING: [Synth 8-5788] Register r_sign_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:41]
+WARNING: [Synth 8-5788] Register reg_q_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:43]
+WARNING: [Synth 8-5788] Register reg_b_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:41]
+INFO: [Synth 8-256] done synthesizing module 'DIVU' (24#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:23]
+INFO: [Synth 8-638] synthesizing module 'DIV' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIV.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DIV' (25#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIV.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:94]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:108]
+WARNING: [Synth 8-5788] Register q_reg in module divmul is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:96]
+WARNING: [Synth 8-5788] Register r_reg in module divmul is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:97]
+WARNING: [Synth 8-5788] Register result_reg in module divmul is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:36]
+INFO: [Synth 8-256] done synthesizing module 'divmul' (26#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:23]
+INFO: [Synth 8-638] synthesizing module 'HILOreg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/HILOreg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HILOreg' (27#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/HILOreg.v:23]
+INFO: [Synth 8-638] synthesizing module 'CP0' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:23]
+WARNING: [Synth 8-5788] Register cp0_regfile_reg[12] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:44]
+WARNING: [Synth 8-5788] Register cp0_regfile_reg[13] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:44]
+WARNING: [Synth 8-5788] Register cp0_regfile_reg[14] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:44]
+INFO: [Synth 8-256] done synthesizing module 'CP0' (28#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:23]
+INFO: [Synth 8-256] done synthesizing module 'cpu' (29#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cpu54.v:23]
+INFO: [Synth 8-638] synthesizing module 'iram' [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/realtime/iram_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'iram' (30#1) [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/realtime/iram_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dram' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:23]
+WARNING: [Synth 8-5788] Register dataram_reg[2] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[3] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[4] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[5] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[6] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[7] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[8] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[9] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[10] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[11] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[12] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[13] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[14] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[15] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[16] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[17] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[18] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[19] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[20] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[21] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[22] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[23] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[24] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[25] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[26] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[27] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[28] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[29] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[30] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[31] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[32] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[33] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[34] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[35] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[36] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[37] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[38] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[39] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[40] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[41] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[42] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[43] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[44] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[45] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[46] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[47] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[48] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[49] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[50] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[51] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[52] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[53] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[54] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[55] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[56] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[57] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[58] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[59] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[60] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[61] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[62] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[63] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[64] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[65] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[66] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[67] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[68] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[69] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[70] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[71] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[72] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[73] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[74] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[75] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[76] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[77] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[78] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[79] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[80] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[81] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[82] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[83] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[84] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[85] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[86] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[87] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[88] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[89] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[90] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[91] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+INFO: [Common 17-14] Message 'Synth 8-5788' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'dram' (31#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:23]
+INFO: [Synth 8-638] synthesizing module 'io_sel' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/io_sel.v:23]
+INFO: [Synth 8-256] done synthesizing module 'io_sel' (32#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/io_sel.v:23]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/seg7x16.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/seg7x16.v:88]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (33#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/seg7x16.v:23]
+INFO: [Synth 8-638] synthesizing module 'sw_mem_sel' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sw_mem_sel.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sw_mem_sel' (34#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sw_mem_sel.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sccomp_dataflow' (35#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sccomp_dataflow.v:23]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[31]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[30]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[29]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[28]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[27]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[26]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[25]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[24]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[23]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[22]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[21]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[20]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[19]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[18]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[17]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[16]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[31]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[30]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[29]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[28]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[27]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[26]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[25]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[24]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[23]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[22]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[21]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[20]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[19]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[18]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[17]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[16]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[15]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[14]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[13]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[12]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[11]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[10]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[9]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[8]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[7]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[6]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[5]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:25 . Memory (MB): peak = 655.348 ; gain = 448.852
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 655.348 ; gain = 448.852
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_wiz_0' instantiated as 'clk' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sccomp_dataflow.v:39]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'iram' instantiated as 'imem_inst' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sccomp_dataflow.v:54]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/dcp/clk_wiz_0_in_context.xdc] for cell 'clk'
+Finished Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/dcp/clk_wiz_0_in_context.xdc] for cell 'clk'
+Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/dcp_2/iram_in_context.xdc] for cell 'imem_inst'
+Finished Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/dcp_2/iram_in_context.xdc] for cell 'imem_inst'
+Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.srcs/constrs_1/new/cpu.xdc]
+Finished Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.srcs/constrs_1/new/cpu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/vivado_projects/CPU54_down/CPU54_down.srcs/constrs_1/new/cpu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sccomp_dataflow_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sccomp_dataflow_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.040 . Memory (MB): peak = 1067.094 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 1067.094 ; gain = 860.598
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 1067.094 ; gain = 860.598
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_in. (constraint file  E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/dcp/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_in. (constraint file  E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-7828-Lenovo-PC/dcp/clk_wiz_0_in_context.xdc, line 4).
+INFO: Vivado Synthesis caught shared memory exception '系统找不到指定的文件。'. Continuing without using shared memory (or continuing without helper parallel flow)
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:52 . Memory (MB): peak = 1067.094 ; gain = 860.598
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "IC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:41]
+INFO: [Synth 8-5546] ROM "busy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "dataram_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[1]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[2]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[3]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[4]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[5]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[6]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[7]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[8]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[9]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[10]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[10]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[10]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[11]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[11]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[11]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[12]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[12]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[12]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[13]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[13]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[13]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[14]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[14]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[14]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[15]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[15]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[15]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[16]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[16]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[16]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[17]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[17]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[17]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[18]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[18]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[18]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[19]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[19]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[19]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[20]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[20]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[20]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[21]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[21]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[21]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[22]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[22]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[22]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[23]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[23]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[23]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[24]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[24]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[24]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[25]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[25]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[25]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[26]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[26]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[26]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[27]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[27]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[27]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[28]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[28]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[28]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[29]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[29]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[29]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[30]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[30]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "dataram_reg[30]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Common 17-14] Message 'Synth 8-5545' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "o_seg_r" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-327] inferring latch for variable 'out_e_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:121]
+WARNING: [Synth 8-327] inferring latch for variable 'r_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/addsub32.v:32]
+WARNING: [Synth 8-327] inferring latch for variable 'carry_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/addsub32.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'overflow_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/addsub32.v:43]
+WARNING: [Synth 8-327] inferring latch for variable 'r_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/bshifter_32carry.v:33]
+WARNING: [Synth 8-327] inferring latch for variable 'carry_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/bshifter_32carry.v:44]
+WARNING: [Synth 8-327] inferring latch for variable 'r_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/slt_c.v:40]
+WARNING: [Synth 8-327] inferring latch for variable 'negative_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/slt_c.v:39]
+WARNING: [Synth 8-327] inferring latch for variable 'carry_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/alu.v:53]
+WARNING: [Synth 8-327] inferring latch for variable 'overflow_reg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/alu.v:56]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:03:16 ; elapsed = 00:03:34 . Memory (MB): peak = 1067.094 ; gain = 860.598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |dram__GB0            |           1|     34634|
+|2     |dram__GB1            |           1|     15343|
+|3     |dram__GB2            |           1|     25386|
+|4     |dram__GB3            |           1|     25112|
+|5     |dram__GB4            |           1|     31390|
+|6     |dram__GB5            |           1|     39242|
+|7     |dram__GB6            |           1|     44683|
+|8     |dram__GB7            |           1|     32540|
+|9     |dram__GB8            |           1|     12407|
+|10    |dram__GB9            |           1|     34806|
+|11    |dram__GB10           |           1|      8828|
+|12    |dram__GB11           |           1|     11402|
+|13    |dram__GB12           |           1|     34754|
+|14    |dram__GB13           |           1|      8854|
+|15    |dram__GB14           |           1|     11050|
+|16    |dram__GB15           |           1|     14254|
+|17    |dram__GB16           |           1|     34786|
+|18    |dram__GB17           |           1|      8844|
+|19    |dram__GB18           |           1|     11034|
+|20    |dram__GB19           |           1|     13809|
+|21    |dram__GB20           |           1|     17698|
+|22    |dram__GB21           |           1|     34738|
+|23    |dram__GB22           |           1|      9170|
+|24    |dram__GB23           |           1|     11745|
+|25    |dram__GB24           |           1|     33103|
+|26    |dram__GB25           |           1|      8829|
+|27    |dram__GB26           |           1|     10586|
+|28    |dram__GB27           |           1|     37652|
+|29    |dram__GB28           |           1|     34572|
+|30    |dram__GB29           |           1|     36158|
+|31    |dram__GB30           |           1|     33086|
+|32    |dram__GB31           |           1|     23836|
+|33    |dram__GB32           |           1|     21614|
+|34    |dram__GB33           |           1|     22844|
+|35    |dram__GB34           |           1|     20785|
+|36    |dram__GB35           |           1|     23479|
+|37    |dram__GB36           |           1|     21320|
+|38    |dram__GB37           |           1|     21300|
+|39    |dram__GB38           |           1|     21432|
+|40    |dram__GB39           |           1|     34466|
+|41    |dram__GB40           |           1|      8875|
+|42    |dram__GB41           |           1|     11523|
+|43    |dram__GB42           |           1|     27990|
+|44    |dram__GB43           |           1|     25852|
+|45    |dram__GB44           |           1|     33974|
+|46    |dram__GB45           |           1|      8862|
+|47    |dram__GB46           |           1|     11878|
+|48    |dram__GB47           |           1|     32213|
+|49    |dram__GB48           |           1|      8584|
+|50    |dram__GB49           |           1|     10707|
+|51    |sccomp_dataflow__GC0 |           1|     15104|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
+	   3 Input     33 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 11    
+	   3 Input     32 Bit       Adders := 1     
+	  32 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 5     
++---Registers : 
+	               32 Bit    Registers := 68    
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	  29 Input     54 Bit        Muxes := 1     
+	   2 Input     54 Bit        Muxes := 1     
+	  22 Input     52 Bit        Muxes := 1     
+	   2 Input     48 Bit        Muxes := 1     
+	   3 Input     48 Bit        Muxes := 2     
+	   2 Input     45 Bit        Muxes := 2     
+	   3 Input     45 Bit        Muxes := 1     
+	   2 Input     33 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 4149  
+	   4 Input     32 Bit        Muxes := 4     
+	   8 Input     32 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+	  22 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 1142  
+	   3 Input      1 Bit        Muxes := 31    
+	   4 Input      1 Bit        Muxes := 8     
+	   8 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module sccomp_dataflow 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module dram 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4098  
+	   2 Input      1 Bit        Muxes := 1024  
+Module instruction_decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	  29 Input     54 Bit        Muxes := 1     
+	   2 Input     54 Bit        Muxes := 1     
+	  22 Input     52 Bit        Muxes := 1     
+	   2 Input     48 Bit        Muxes := 1     
+	   3 Input     48 Bit        Muxes := 2     
+	   2 Input     45 Bit        Muxes := 2     
+	   3 Input     45 Bit        Muxes := 1     
+	  22 Input      5 Bit        Muxes := 1     
+Module add2__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module ext18 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module add2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+Module mux32x41__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module pcreg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module mux5x21__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module mux5x21 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module regfile 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 17    
+	   3 Input      1 Bit        Muxes := 30    
+Module ext5 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module mux32x21__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module ext16 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module mux32x41 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input     32 Bit        Muxes := 1     
+Module addsub32 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 3     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   4 Input      1 Bit        Muxes := 3     
+Module and_c 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module bshifter32_carry 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+	   4 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+	   4 Input      1 Bit        Muxes := 3     
+Module lui_c 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module nor_c 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module or_c 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module slt_c 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 14    
+Module xor_c 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     32 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module alu 
+Detailed RTL Component Info : 
++---Muxes : 
+	   8 Input     32 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 5     
+Module countZero 
+Detailed RTL Component Info : 
++---Adders : 
+	  32 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 30    
+	   3 Input      1 Bit        Muxes := 1     
+Module DIVU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module DIVU__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     33 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     33 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+Module DIV 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 4     
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 4     
+Module divmul 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     64 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 12    
+	   2 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 2     
+Module mux32x21__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module HILOreg__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module mux32x21 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module HILOreg 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module CP0 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 32    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 17    
+	   2 Input      1 Bit        Muxes := 35    
+Module seg7x16 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	  16 Input      8 Bit        Muxes := 1     
+	   8 Input      8 Bit        Muxes := 1     
+Module sw_mem_sel 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:03:46 ; elapsed = 00:04:04 . Memory (MB): peak = 1070.004 ; gain = 863.508
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+INFO: [Common 17-14] Message 'Synth 8-5545' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-5545' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-5546] ROM "inst_decode/IC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst_decode/IC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst_decode/IC" won't be mapped to RAM because it is too sparse
+DSP Report: Generating DSP q0, operation Mode is: A*B.
+DSP Report: operator q0 is absorbed into DSP q0.
+DSP Report: operator q0 is absorbed into DSP q0.
+DSP Report: Generating DSP q0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator q0 is absorbed into DSP q0.
+DSP Report: operator q0 is absorbed into DSP q0.
+DSP Report: Generating DSP q0, operation Mode is: A*B.
+DSP Report: operator q0 is absorbed into DSP q0.
+DSP Report: operator q0 is absorbed into DSP q0.
+DSP Report: Generating DSP q0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator q0 is absorbed into DSP q0.
+DSP Report: operator q0 is absorbed into DSP q0.
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[31]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[30]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[29]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[28]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[27]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[26]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[25]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[24]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[23]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[22]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[21]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[20]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[19]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[18]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[17]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[16]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[15]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[14]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[13]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[12]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[11]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[10]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[9]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[8]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[7]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[6]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[5]
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:05:53 ; elapsed = 00:06:17 . Memory (MB): peak = 1070.004 ; gain = 863.508
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:05:53 ; elapsed = 00:06:17 . Memory (MB): peak = 1070.004 ; gain = 863.508
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |dram__GB0            |           1|     34920|
+|2     |dram__GB1            |           1|     16480|
+|3     |dram__GB2            |           1|     26768|
+|4     |dram__GB3            |           1|     28896|
+|5     |dram__GB4            |           1|     36120|
+|6     |dram__GB5            |           1|     45160|
+|7     |dram__GB6            |           1|     49532|
+|8     |dram__GB7            |           1|     32540|
+|9     |dram__GB8            |           1|     12891|
+|10    |dram__GB9            |           1|     34806|
+|11    |dram__GB10           |           1|      8828|
+|12    |dram__GB11           |           1|     11402|
+|13    |dram__GB12           |           1|     34754|
+|14    |dram__GB13           |           1|      8854|
+|15    |dram__GB14           |           1|     11050|
+|16    |dram__GB15           |           1|     14254|
+|17    |dram__GB16           |           1|     34786|
+|18    |dram__GB17           |           1|      8844|
+|19    |dram__GB18           |           1|     11034|
+|20    |dram__GB19           |           1|     13809|
+|21    |dram__GB20           |           1|     17698|
+|22    |dram__GB21           |           1|     34738|
+|23    |dram__GB22           |           1|      9170|
+|24    |dram__GB23           |           1|     11745|
+|25    |dram__GB24           |           1|     33103|
+|26    |dram__GB25           |           1|      8829|
+|27    |dram__GB26           |           1|     10586|
+|28    |dram__GB27           |           1|     37652|
+|29    |dram__GB28           |           1|     34572|
+|30    |dram__GB29           |           1|     36158|
+|31    |dram__GB30           |           1|     33086|
+|32    |dram__GB31           |           1|     23836|
+|33    |dram__GB32           |           1|     21614|
+|34    |dram__GB33           |           1|     22844|
+|35    |dram__GB34           |           1|     20785|
+|36    |dram__GB35           |           1|     23479|
+|37    |dram__GB36           |           1|     21320|
+|38    |dram__GB37           |           1|     21300|
+|39    |dram__GB38           |           1|     21432|
+|40    |dram__GB39           |           1|     34466|
+|41    |dram__GB40           |           1|      8875|
+|42    |dram__GB41           |           1|     11523|
+|43    |dram__GB42           |           1|     27990|
+|44    |dram__GB43           |           1|     25852|
+|45    |dram__GB44           |           1|     33974|
+|46    |dram__GB45           |           1|      8862|
+|47    |dram__GB46           |           1|     11878|
+|48    |dram__GB47           |           1|     32213|
+|49    |dram__GB48           |           1|      8584|
+|50    |dram__GB49           |           1|     10707|
+|51    |sccomp_dataflow__GC0 |           1|     16788|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|divmul      | A*B            | 18     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|divmul      | (PCIN>>17)+A*B | 16     | 16     | -      | -      | 30     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|divmul      | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|divmul      | (PCIN>>17)+A*B | 18     | 16     | -      | -      | 47     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[15]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[1]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[2]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[3]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[4]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[5]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[6]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[7]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[8]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[9]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[10]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[11]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[12]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[13]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[14]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[16]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[17]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[18]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[19]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[20]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[21]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[22]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[23]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[24]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[25]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[26]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[27]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[28]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[29]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3886] merging instance 'sccpu/alu_inst/s/r_reg[30]' (LD) to 'sccpu/alu_inst/s/r_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (sccpu/alu_inst/\s/r_reg[31] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\seg7/o_seg_r_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[31]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[30]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[29]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[28]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[27]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[26]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[25]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[24]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[23]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[22]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[21]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[20]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[19]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[18]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[17]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[16]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[15]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[14]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[13]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[12]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[11]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[10]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[9]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[8]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[7]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[6]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[5]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[4]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[3]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[2]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[1]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (out_e_reg[0]) is unused and will be removed from module mux32x81.
+WARNING: [Synth 8-3332] Sequential element (as/carry_reg) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (as/overflow_reg) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (shifer/carry_reg) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[31]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[30]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[29]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[28]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[27]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[26]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[25]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[24]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[23]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[22]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[21]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[20]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[19]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[18]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[17]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[16]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[15]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[14]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[13]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[12]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[11]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[10]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[9]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[8]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[7]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[6]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[5]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[4]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[3]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[2]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (s/r_reg[1]) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (carry_reg) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (overflow_reg) is unused and will be removed from module alu.
+WARNING: [Synth 8-3332] Sequential element (result_reg[63]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[62]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[61]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[60]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[59]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[58]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[57]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[56]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[55]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[54]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[53]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[52]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[51]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[50]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[49]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[48]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[47]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[46]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[45]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[44]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[43]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[42]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[41]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[40]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[39]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[38]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[37]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[36]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[35]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[34]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[33]) is unused and will be removed from module divmul.
+WARNING: [Synth 8-3332] Sequential element (result_reg[32]) is unused and will be removed from module divmul.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:10:58 ; elapsed = 00:11:27 . Memory (MB): peak = 1083.563 ; gain = 877.066
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:10:58 ; elapsed = 00:11:27 . Memory (MB): peak = 1083.563 ; gain = 877.066
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |dram__GB0            |           1|     34025|
+|2     |dram__GB1            |           1|     13128|
+|3     |dram__GB2            |           1|     22517|
+|4     |dram__GB3            |           1|     17030|
+|5     |dram__GB4            |           1|     21287|
+|6     |dram__GB5            |           1|     26601|
+|7     |dram__GB6            |           1|     18661|
+|8     |dram__GB7            |           1|       177|
+|9     |dram__GB8            |           1|      2160|
+|10    |dram__GB9            |           1|       191|
+|11    |dram__GB10           |           1|        87|
+|12    |dram__GB11           |           1|       110|
+|13    |dram__GB12           |           1|       256|
+|14    |dram__GB13           |           1|        77|
+|15    |dram__GB14           |           1|        86|
+|16    |dram__GB15           |           1|       142|
+|17    |dram__GB16           |           1|       192|
+|18    |dram__GB17           |           1|       120|
+|19    |dram__GB18           |           1|        84|
+|20    |dram__GB19           |           1|       144|
+|21    |dram__GB20           |           1|       145|
+|22    |dram__GB21           |           1|       202|
+|23    |dram__GB22           |           1|       107|
+|24    |dram__GB23           |           1|       235|
+|25    |dram__GB24           |           1|       137|
+|26    |dram__GB25           |           1|       114|
+|27    |dram__GB26           |           1|        98|
+|28    |dram__GB27           |           1|       322|
+|29    |dram__GB28           |           1|       450|
+|30    |dram__GB29           |           1|       328|
+|31    |dram__GB30           |           1|       315|
+|32    |dram__GB31           |           1|       241|
+|33    |dram__GB32           |           1|       206|
+|34    |dram__GB33           |           1|       184|
+|35    |dram__GB34           |           1|       217|
+|36    |dram__GB35           |           1|       260|
+|37    |dram__GB36           |           1|       216|
+|38    |dram__GB37           |           1|       186|
+|39    |dram__GB38           |           1|       279|
+|40    |dram__GB39           |           1|       210|
+|41    |dram__GB40           |           1|       126|
+|42    |dram__GB41           |           1|       187|
+|43    |dram__GB42           |           1|       213|
+|44    |dram__GB43           |           1|       346|
+|45    |dram__GB44           |           1|       272|
+|46    |dram__GB45           |           1|       112|
+|47    |dram__GB46           |           1|       222|
+|48    |dram__GB47           |           1|       242|
+|49    |dram__GB48           |           1|       169|
+|50    |dram__GB49           |           1|       139|
+|51    |sccomp_dataflow__GC0 |           1|     12694|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'clk/clk_out1' to pin 'clk/bbstub_clk_out1/O'
+INFO: [Synth 8-5820] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:11:16 ; elapsed = 00:11:46 . Memory (MB): peak = 1137.258 ; gain = 930.762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:11:49 ; elapsed = 00:12:20 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |dram__GB0            |           1|     33295|
+|2     |dram__GB1            |           1|     10431|
+|3     |dram__GB2            |           1|     19031|
+|4     |dram__GB3            |           1|      7388|
+|5     |dram__GB4            |           1|      9243|
+|6     |dram__GB5            |           1|     11530|
+|7     |dram__GB6            |           1|      9224|
+|8     |dram__GB7            |           1|       177|
+|9     |dram__GB8            |           1|      1087|
+|10    |dram__GB9            |           1|       191|
+|11    |dram__GB10           |           1|        87|
+|12    |dram__GB11           |           1|       110|
+|13    |dram__GB12           |           1|       256|
+|14    |dram__GB13           |           1|        77|
+|15    |dram__GB14           |           1|        86|
+|16    |dram__GB15           |           1|       142|
+|17    |dram__GB16           |           1|       192|
+|18    |dram__GB17           |           1|       120|
+|19    |dram__GB18           |           1|        84|
+|20    |dram__GB19           |           1|       144|
+|21    |dram__GB20           |           1|       145|
+|22    |dram__GB21           |           1|       202|
+|23    |dram__GB22           |           1|       107|
+|24    |dram__GB23           |           1|       235|
+|25    |dram__GB24           |           1|       137|
+|26    |dram__GB25           |           1|       114|
+|27    |dram__GB26           |           1|        98|
+|28    |dram__GB27           |           1|       322|
+|29    |dram__GB28           |           1|       450|
+|30    |dram__GB29           |           1|       328|
+|31    |dram__GB30           |           1|       315|
+|32    |dram__GB31           |           1|       241|
+|33    |dram__GB32           |           1|       206|
+|34    |dram__GB33           |           1|       184|
+|35    |dram__GB34           |           1|       217|
+|36    |dram__GB35           |           1|       260|
+|37    |dram__GB36           |           1|       216|
+|38    |dram__GB37           |           1|       186|
+|39    |dram__GB38           |           1|       279|
+|40    |dram__GB39           |           1|       210|
+|41    |dram__GB40           |           1|       126|
+|42    |dram__GB41           |           1|       187|
+|43    |dram__GB42           |           1|       213|
+|44    |dram__GB43           |           1|       346|
+|45    |dram__GB44           |           1|       272|
+|46    |dram__GB45           |           1|       112|
+|47    |dram__GB46           |           1|       222|
+|48    |dram__GB47           |           1|       242|
+|49    |dram__GB48           |           1|       169|
+|50    |dram__GB49           |           1|       139|
+|51    |sccomp_dataflow__GC0 |           1|     12694|
++------+---------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:12:22 ; elapsed = 00:12:55 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:12:22 ; elapsed = 00:12:55 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+
+Report RTL Partitions: 
++------+---------------------+------------+----------+
+|      |RTL Partition        |Replication |Instances |
++------+---------------------+------------+----------+
+|1     |dram__GB0            |           1|     15720|
+|2     |dram__GB1            |           1|      5625|
+|3     |dram__GB2            |           1|      9803|
+|4     |dram__GB5            |           1|      9384|
+|5     |sccomp_dataflow__GC0 |           1|      6609|
++------+---------------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:12:22 ; elapsed = 00:12:55 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:12:36 ; elapsed = 00:13:10 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:12:37 ; elapsed = 00:13:11 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:12:46 ; elapsed = 00:13:21 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:12:53 ; elapsed = 00:13:28 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:12:57 ; elapsed = 00:13:34 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:12:57 ; elapsed = 00:13:35 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz_0     |         1|
+|2     |iram          |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |clk_wiz_0 |     1|
+|2     |iram      |     1|
+|3     |BUFG      |     2|
+|4     |CARRY4    |   145|
+|5     |DSP48E1   |     4|
+|6     |LUT1      |   198|
+|7     |LUT2      |   724|
+|8     |LUT3      |   729|
+|9     |LUT4      |  1631|
+|10    |LUT5      |  2087|
+|11    |LUT6      | 21282|
+|12    |MUXF7     |  8022|
+|13    |MUXF8     |  3891|
+|14    |FDCE      |  2266|
+|15    |FDPE      |    75|
+|16    |FDRE      | 32994|
+|17    |LD        |    66|
+|18    |LDC       |    64|
+|19    |IBUF      |    17|
+|20    |OBUF      |    16|
++------+----------+------+
+
+Report Instance Areas: 
++------+-------------------+-----------------+------+
+|      |Instance           |Module           |Cells |
++------+-------------------+-----------------+------+
+|1     |top                |                 | 74247|
+|2     |  dm               |dram             | 59620|
+|3     |  sccpu            |cpu              | 14406|
+|4     |    HI             |HILOreg          |    34|
+|5     |    LO             |HILOreg_0        |    36|
+|6     |    alu_inst       |alu              |   209|
+|7     |      as           |addsub32         |    95|
+|8     |      s            |slt_c            |    12|
+|9     |      shifer       |bshifter32_carry |   102|
+|10    |    cp0            |CP0              |  1505|
+|11    |    cpu_ref        |regfile          | 11016|
+|12    |    divm           |divmul           |  1100|
+|13    |      div_inst     |DIV              |   374|
+|14    |        divu_inst  |DIVU_5           |   374|
+|15    |      divu_inst    |DIVU             |   421|
+|16    |    mux10          |mux32x21         |    32|
+|17    |    mux11          |mux32x21_1       |    32|
+|18    |    mux2           |mux32x81         |   100|
+|19    |    mux3           |mux32x21_2       |    48|
+|20    |    mux4           |mux32x41         |    33|
+|21    |    mux41          |mux32x41_3       |    90|
+|22    |    mux8           |mux5x21          |    38|
+|23    |    npc            |add2             |     9|
+|24    |    pc4offset_inst |add2_4           |    23|
+|25    |    pcreg_inst     |pcreg            |   101|
+|26    |  seg7             |seg7x16          |   150|
++------+-------------------+-----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:12:57 ; elapsed = 00:13:36 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 137 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:12:13 ; elapsed = 00:13:47 . Memory (MB): peak = 1257.398 ; gain = 611.473
+Synthesis Optimization Complete : Time (s): cpu = 00:12:58 ; elapsed = 00:14:13 . Memory (MB): peak = 1257.398 ; gain = 1050.902
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 296 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'sccomp_dataflow' is not ideal for floorplanning, since the cellview 'dram' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 4 inverter(s) to 33134 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 130 instances were transformed.
+  LD => LDCE: 66 instances
+  LDC => LDCE: 64 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+272 Infos, 283 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:13:13 ; elapsed = 00:14:31 . Memory (MB): peak = 1257.398 ; gain = 1026.035
+write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1257.398 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.470 . Memory (MB): peak = 1257.398 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 18 07:25:23 2018...

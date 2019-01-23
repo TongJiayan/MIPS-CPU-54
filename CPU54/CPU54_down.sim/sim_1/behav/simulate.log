@@ -1,0 +1,66 @@
+# do {sccomp_dataflow_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -L xpm -L dist_mem_gen_v8_0_10 -lib xil_defaultlib xil_defaultlib.sccomp_dataflow xil_defaultlib.glbl 
+# Start time: 00:44:59 on Jun 17,2018
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.sccomp_dataflow
+# Loading xil_defaultlib.clk_wiz_0
+# Loading xil_defaultlib.clk_wiz_0_clk_wiz
+# Loading unisims_ver.IBUF
+# Loading unisims_ver.MMCME2_ADV
+# Loading unisims_ver.BUFG
+# Loading xil_defaultlib.cpu
+# Loading xil_defaultlib.control_unit_54
+# Loading xil_defaultlib.instruction_decoder
+# Loading xil_defaultlib.add2
+# Loading xil_defaultlib.ext18
+# Loading xil_defaultlib.mux32x41
+# Loading xil_defaultlib.pcreg
+# Loading xil_defaultlib.mux5x21
+# Loading xil_defaultlib.mux32x81
+# Loading xil_defaultlib.regfile
+# Loading xil_defaultlib.ext5
+# Loading xil_defaultlib.mux32x21
+# Loading xil_defaultlib.ext16
+# Loading xil_defaultlib.alu
+# Loading xil_defaultlib.addsub32
+# Loading xil_defaultlib.and_c
+# Loading xil_defaultlib.bshifter32_carry
+# Loading xil_defaultlib.lui_c
+# Loading xil_defaultlib.nor_c
+# Loading xil_defaultlib.or_c
+# Loading xil_defaultlib.slt_c
+# Loading xil_defaultlib.xor_c
+# Loading xil_defaultlib.countZero
+# Loading xil_defaultlib.divmul
+# Loading xil_defaultlib.DIVU
+# Loading xil_defaultlib.DIV
+# Loading xil_defaultlib.HILOreg
+# Loading xil_defaultlib.CP0
+# Loading xil_defaultlib.iram
+# Loading dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10
+# Loading xil_defaultlib.dram
+# Loading xil_defaultlib.io_sel
+# Loading xil_defaultlib.seg7x16
+# Loading xil_defaultlib.sw_mem_sel
+# Loading xil_defaultlib.glbl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 1436 of file "iram.mif". Expected 2048, found 1435.    : ../../../CPU54_down.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v(234)
+#    Time: 0 ps  Iteration: 0  Instance: /sccomp_dataflow/imem_inst/inst
+# End time: 01:11:55 on Jun 17,2018, Elapsed time: 0:26:56
+# Errors: 0, Warnings: 1

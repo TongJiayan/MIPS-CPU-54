@@ -1,0 +1,341 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Jun 18 07:05:10 2018
+# Process ID: 9144
+# Current directory: E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1
+# Command line: vivado.exe -log sccomp_dataflow.vds -mode batch -messageDb vivado.pb -notrace -source sccomp_dataflow.tcl
+# Log file: E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/sccomp_dataflow.vds
+# Journal file: E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source sccomp_dataflow.tcl -notrace
+Command: synth_design -top sccomp_dataflow -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8588 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 304.641 ; gain = 98.578
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'sccomp_dataflow' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sccomp_dataflow.v:23]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz_0' [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-256] done synthesizing module 'clk_wiz_0' (1#1) [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-638] synthesizing module 'cpu' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cpu54.v:23]
+INFO: [Synth 8-638] synthesizing module 'control_unit_54' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/control_unit_54.v:23]
+INFO: [Synth 8-638] synthesizing module 'instruction_decoder' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/instruction_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'instruction_decoder' (2#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/instruction_decoder.v:23]
+INFO: [Synth 8-256] done synthesizing module 'control_unit_54' (3#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/control_unit_54.v:23]
+INFO: [Synth 8-638] synthesizing module 'add2' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/add2.v:23]
+INFO: [Synth 8-256] done synthesizing module 'add2' (4#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/add2.v:23]
+INFO: [Synth 8-638] synthesizing module 'ext18' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:39]
+INFO: [Synth 8-256] done synthesizing module 'ext18' (5#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:39]
+INFO: [Synth 8-638] synthesizing module 'mux32x41' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:79]
+INFO: [Synth 8-256] done synthesizing module 'mux32x41' (6#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:79]
+INFO: [Synth 8-638] synthesizing module 'pcreg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/pcreg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'pcreg' (7#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/pcreg.v:23]
+INFO: [Synth 8-638] synthesizing module 'mux5x21' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:45]
+INFO: [Synth 8-256] done synthesizing module 'mux5x21' (8#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:45]
+INFO: [Synth 8-638] synthesizing module 'mux32x81' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:102]
+INFO: [Synth 8-256] done synthesizing module 'mux32x81' (9#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:102]
+INFO: [Synth 8-638] synthesizing module 'regfile' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/regfiles.v:22]
+INFO: [Synth 8-256] done synthesizing module 'regfile' (10#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/regfiles.v:22]
+INFO: [Synth 8-638] synthesizing module 'ext5' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:23]
+INFO: [Synth 8-256] done synthesizing module 'ext5' (11#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:23]
+INFO: [Synth 8-638] synthesizing module 'mux32x21' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:62]
+INFO: [Synth 8-256] done synthesizing module 'mux32x21' (12#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/selector.v:62]
+INFO: [Synth 8-638] synthesizing module 'ext16' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:31]
+INFO: [Synth 8-256] done synthesizing module 'ext16' (13#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/ext.v:31]
+INFO: [Synth 8-638] synthesizing module 'alu' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-638] synthesizing module 'addsub32' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/addsub32.v:22]
+INFO: [Synth 8-256] done synthesizing module 'addsub32' (14#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/addsub32.v:22]
+INFO: [Synth 8-638] synthesizing module 'and_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/and_c.v:23]
+INFO: [Synth 8-256] done synthesizing module 'and_c' (15#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/and_c.v:23]
+INFO: [Synth 8-638] synthesizing module 'bshifter32_carry' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/bshifter_32carry.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/bshifter_32carry.v:39]
+INFO: [Synth 8-256] done synthesizing module 'bshifter32_carry' (16#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/bshifter_32carry.v:23]
+INFO: [Synth 8-638] synthesizing module 'lui_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/lui_c.v:22]
+INFO: [Synth 8-256] done synthesizing module 'lui_c' (17#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/lui_c.v:22]
+INFO: [Synth 8-638] synthesizing module 'nor_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/nor_c.v:22]
+INFO: [Synth 8-256] done synthesizing module 'nor_c' (18#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/nor_c.v:22]
+INFO: [Synth 8-638] synthesizing module 'or_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/or_c.v:23]
+INFO: [Synth 8-256] done synthesizing module 'or_c' (19#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/or_c.v:23]
+INFO: [Synth 8-638] synthesizing module 'slt_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/slt_c.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/slt_c.v:35]
+INFO: [Synth 8-256] done synthesizing module 'slt_c' (20#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/slt_c.v:23]
+INFO: [Synth 8-638] synthesizing module 'xor_c' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/xor_c.v:23]
+INFO: [Synth 8-256] done synthesizing module 'xor_c' (21#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/xor_c.v:23]
+INFO: [Synth 8-226] default block is never used [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/alu.v:50]
+INFO: [Synth 8-256] done synthesizing module 'alu' (22#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/alu.v:23]
+INFO: [Synth 8-638] synthesizing module 'countZero' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/countZero.v:23]
+INFO: [Synth 8-256] done synthesizing module 'countZero' (23#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/countZero.v:23]
+INFO: [Synth 8-638] synthesizing module 'divmul' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:23]
+INFO: [Synth 8-638] synthesizing module 'DIVU' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:23]
+WARNING: [Synth 8-5788] Register reg_r_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:41]
+WARNING: [Synth 8-5788] Register r_sign_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:41]
+WARNING: [Synth 8-5788] Register reg_q_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:43]
+WARNING: [Synth 8-5788] Register reg_b_reg in module DIVU is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:41]
+INFO: [Synth 8-256] done synthesizing module 'DIVU' (24#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:23]
+INFO: [Synth 8-638] synthesizing module 'DIV' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIV.v:23]
+INFO: [Synth 8-256] done synthesizing module 'DIV' (25#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIV.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:94]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:108]
+WARNING: [Synth 8-5788] Register q_reg in module divmul is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:96]
+WARNING: [Synth 8-5788] Register r_reg in module divmul is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:97]
+WARNING: [Synth 8-5788] Register result_reg in module divmul is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:36]
+INFO: [Synth 8-256] done synthesizing module 'divmul' (26#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/divmul.v:23]
+INFO: [Synth 8-638] synthesizing module 'HILOreg' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/HILOreg.v:23]
+INFO: [Synth 8-256] done synthesizing module 'HILOreg' (27#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/HILOreg.v:23]
+INFO: [Synth 8-638] synthesizing module 'CP0' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:23]
+WARNING: [Synth 8-5788] Register cp0_regfile_reg[12] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:44]
+WARNING: [Synth 8-5788] Register cp0_regfile_reg[13] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:44]
+WARNING: [Synth 8-5788] Register cp0_regfile_reg[14] in module CP0 is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:44]
+INFO: [Synth 8-256] done synthesizing module 'CP0' (28#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cp0.v:23]
+INFO: [Synth 8-256] done synthesizing module 'cpu' (29#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/cpu54.v:23]
+INFO: [Synth 8-638] synthesizing module 'iram' [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/realtime/iram_stub.v:6]
+INFO: [Synth 8-256] done synthesizing module 'iram' (30#1) [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/realtime/iram_stub.v:6]
+INFO: [Synth 8-638] synthesizing module 'dram' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:23]
+WARNING: [Synth 8-5788] Register dataram_reg[64] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[65] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[66] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[67] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[68] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[69] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[70] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[71] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[72] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[73] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[74] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[75] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[76] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[77] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[78] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[79] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[80] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[81] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[82] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[83] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[84] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[85] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[86] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[87] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[88] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[89] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[90] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[91] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[92] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[93] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[94] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[95] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[96] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[97] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[98] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[99] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[100] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[101] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[102] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[103] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[104] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[105] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[106] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[107] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[108] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[109] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[110] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[111] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[112] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[113] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[114] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[115] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[116] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[117] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[118] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[119] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[120] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[121] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[122] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[123] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[124] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[125] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[126] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[127] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[128] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[129] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[130] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[131] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[132] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[133] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[134] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[135] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[136] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[137] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[138] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[139] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[140] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[141] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[142] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[143] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[144] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[145] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[146] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[147] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[148] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[149] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[150] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[151] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[152] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+WARNING: [Synth 8-5788] Register dataram_reg[153] in module dram is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:77]
+INFO: [Common 17-14] Message 'Synth 8-5788' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'dram' (31#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/dram.v:23]
+INFO: [Synth 8-638] synthesizing module 'io_sel' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/io_sel.v:23]
+INFO: [Synth 8-256] done synthesizing module 'io_sel' (32#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/io_sel.v:23]
+INFO: [Synth 8-638] synthesizing module 'seg7x16' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/seg7x16.v:23]
+INFO: [Synth 8-155] case statement is not full and has no default [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/seg7x16.v:88]
+INFO: [Synth 8-256] done synthesizing module 'seg7x16' (33#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/seg7x16.v:23]
+INFO: [Synth 8-638] synthesizing module 'sw_mem_sel' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sw_mem_sel.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sw_mem_sel' (34#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sw_mem_sel.v:23]
+INFO: [Synth 8-256] done synthesizing module 'sccomp_dataflow' (35#1) [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sccomp_dataflow.v:23]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[31]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[30]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[29]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[28]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[27]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[26]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[25]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[24]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[23]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[22]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[21]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[20]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[19]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[18]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[17]
+WARNING: [Synth 8-3331] design lui_c has unconnected port b[16]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[31]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[30]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[29]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[28]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[27]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[26]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[25]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[24]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[23]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[22]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[21]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[20]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[19]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[18]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[17]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[16]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[15]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[14]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[13]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[12]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[11]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[10]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[9]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[8]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[7]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[6]
+WARNING: [Synth 8-3331] design bshifter32_carry has unconnected port a[5]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:26 . Memory (MB): peak = 658.117 ; gain = 452.055
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 658.117 ; gain = 452.055
+---------------------------------------------------------------------------------
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'clk_wiz_0' instantiated as 'clk' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sccomp_dataflow.v:39]
+WARNING: [Project 1-486] Could not resolve non-primitive black box cell 'iram' instantiated as 'imem_inst' [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/sccomp_dataflow.v:54]
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/dcp/clk_wiz_0_in_context.xdc] for cell 'clk'
+Finished Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/dcp/clk_wiz_0_in_context.xdc] for cell 'clk'
+Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/dcp_2/iram_in_context.xdc] for cell 'imem_inst'
+Finished Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/dcp_2/iram_in_context.xdc] for cell 'imem_inst'
+Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.srcs/constrs_1/new/cpu.xdc]
+Finished Parsing XDC File [E:/vivado_projects/CPU54_down/CPU54_down.srcs/constrs_1/new/cpu.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/vivado_projects/CPU54_down/CPU54_down.srcs/constrs_1/new/cpu.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/sccomp_dataflow_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/sccomp_dataflow_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1074.164 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 1074.164 ; gain = 868.102
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 1074.164 ; gain = 868.102
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_in. (constraint file  E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/dcp/clk_wiz_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_in. (constraint file  E:/vivado_projects/CPU54_down/CPU54_down.runs/synth_1/.Xil/Vivado-9144-Lenovo-PC/dcp/clk_wiz_0_in_context.xdc, line 4).
+INFO: Vivado Synthesis caught shared memory exception '系统找不到指定的文件。'. Continuing without using shared memory (or continuing without helper parallel flow)
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:50 ; elapsed = 00:00:55 . Memory (MB): peak = 1074.164 ; gain = 868.102
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "IC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "IC" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "array_reg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "r" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [E:/vivado_projects/CPU54_down/CPU54_down.srcs/sources_1/new/DIVU.v:41]
+INFO: [Synth 8-5546] ROM "busy" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "cp0_regfile_reg[31]" won't be mapped to RAM because it is too sparse

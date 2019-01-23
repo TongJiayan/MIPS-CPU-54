@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="iram_synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1529163400">
+  <File Type="RDS-PROPCONSTRS" Name="iram_drc_synth.rpt"/>
+  <File Type="PA-TCL" Name="iram.tcl"/>
+  <File Type="RDS-RDS" Name="iram.vds"/>
+  <File Type="RDS-UTIL" Name="iram_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="iram_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="iram.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="iram_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="iram_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/iram">
+    <File Path="$PSRCDIR/sources_1/ip/iram/iram.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="iram"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/iram">
+    <File Path="$PSRCDIR/sources_1/ip/iram/iram.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="iram"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2016"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

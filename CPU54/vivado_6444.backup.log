@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Jun 16 01:01:24 2018
+# Process ID: 6444
+# Current directory: E:/vivado_projects/CPU54_down
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12044 E:\vivado_projects\CPU54_down\CPU54_down.xpr
+# Log file: E:/vivado_projects/CPU54_down/vivado.log
+# Journal file: E:/vivado_projects/CPU54_down\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_projects/CPU54_down/CPU54_down.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:16 . Memory (MB): peak = 813.969 ; gain = 153.828
+update_compile_order -fileset sources_1
+ERROR: [Vivado 12-106] *** Exception: java.lang.IllegalArgumentException: Comparison method violates its general contract! (See E:/vivado_projects/CPU54_down/vivado_pid6444.debug)
+ERROR: [Vivado 12-106] *** Exception: java.lang.IllegalArgumentException: Comparison method violates its general contract! (See E:/vivado_projects/CPU54_down/vivado_pid6444.debug)
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jun 16 01:03:25 2018...

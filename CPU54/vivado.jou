@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Sat Jun 16 01:10:53 2018
+# Process ID: 10884
+# Current directory: E:/vivado_projects/CPU54_down
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9552 E:\vivado_projects\CPU54_down\CPU54_down.xpr
+# Log file: E:/vivado_projects/CPU54_down/vivado.log
+# Journal file: E:/vivado_projects/CPU54_down\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/vivado_projects/CPU54_down/CPU54_down.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation
+source sccomp_dataflow.tcl
+close_sim
+set_property target_simulator ModelSim [current_project]
+set_property compxlib.modelsim_compiled_library_dir E:/xilinx_sim_lib [current_project]
+launch_simulation -install_path D:/modeltech_pe_10.4c/win32pe
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+open_run impl_1
+report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths 10 -input_pins -name timing_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+close_design
+open_hw
+connect_hw_server
+open_hw_target
+close_hw
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {E:/vivado_projects/CPU54_down/CPU54_down.runs/impl_1/sccomp_dataflow.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {E:/vivado_projects/CPU54_down/CPU54_down.runs/impl_1/sccomp_dataflow.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+refresh_hw_device [lindex [get_hw_devices] 0]
+close_hw
